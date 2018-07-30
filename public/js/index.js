@@ -14,7 +14,7 @@ socket.on('newMessage', function(message) {
 
 socket.emit('createMessage', {
     from: "Paurakh",
-    text: "K xa keto tero"
+    text: "K xa keto tero khabar"
 }, function(result) {
     console.log(result)
 })
