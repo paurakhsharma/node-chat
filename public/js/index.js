@@ -16,7 +16,6 @@ socket.on('newMessage', function(message) {
     jQuery('#messages').append(li)
 })
 
-
 jQuery('#message-form').on('submit', function(e) {
     e.preventDefault()
     socket.emit('createMessage', {
@@ -26,4 +25,5 @@ jQuery('#message-form').on('submit', function(e) {
     }, function(result) {
         console.log(result)
     })
+
 })
