@@ -5,4 +5,4 @@ Real-time chat application made using Node.js, Socket-IO
 1) Clone the repo
 2) `cd` into the directory
 3) run `npm install`
-4) run 'node server/server.js'
+4) run `node server/server.js`
