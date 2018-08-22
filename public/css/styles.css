@@ -196,6 +196,7 @@
 
   a {
       text-decoration: none;
+      position: absolute;
       color: #ffffff;
       font-size: 1.3em;
       font-weight: bold;
@@ -203,4 +204,6 @@
       padding: 4px;
       padding-top: 2px;
       border-radius: 5px;
+      margin-top: 0px;
+      margin-left: 2px;
   }
